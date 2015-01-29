@@ -9,7 +9,7 @@ function initFunc() {
 		};
 		navigator.geolocation.getCurrentPosition(reportPosition, gpsError, params); 
 	} else {
-		alert('Sorry! Your browser does not support this function, also you can change other browser to try it again. Thank you for your cooperation!');
+		alert('Sorry! Your browser does not support this function, also, you can change other browser to try it again. Thank you for your cooperation!');
 	}
 }
 
